@@ -11,7 +11,7 @@ edition = "2021"
 # know that we can't show up multiple times in a crate graph. If this is an
 # issue in the future we should tweak the build script to set `#define`
 # directives or similar to embed a version number of this crate in symbols.
-links = "wasmtime-fiber-shims"
+links = "wasmtime-fiber-shims-patched"
 
 [dependencies]
 cfg-if = "1.0"
