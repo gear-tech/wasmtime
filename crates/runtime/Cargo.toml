@@ -36,6 +36,7 @@ rustix = { version = "0.35.6", features = ["mm"] }
 [target.'cfg(target_os = "windows")'.dependencies.windows-sys]
 version = "0.36.0"
 features = [
+  "Win32_Foundation",
   "Win32_System_Kernel",
   "Win32_System_Memory",
   "Win32_System_Diagnostics_Debug",
